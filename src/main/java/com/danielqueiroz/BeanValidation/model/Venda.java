@@ -8,6 +8,9 @@ import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import com.danielqueiroz.BeanValidation.validacao.venda.TotalPorTipo;
+
+@TotalPorTipo
 public class Venda {
 
 	@NotNull
